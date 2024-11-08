@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btnTransDelete
+{
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: #E1E1E2;
+    background: #D20404;
+    width: 150px;
+    padding: 8px 5px;
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.btnTransDelete:hover
+{
+    background: #E1E1E2;
+    color: #D20404;
+    transform: scale(1.05);
+}
+
+.btnCancelDeletion
+{
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: #D20404;
+    background: #af8a8a;
+    width: 150px;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.btnCancelDeletion:hover
+{
+    background: #703737;
+    color: #000;
+    transform: scale(1.05);
+}
